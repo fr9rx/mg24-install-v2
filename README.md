@@ -14,7 +14,7 @@ This allows you to quickly set up your development environment without manually 
 
 ## Installation
 
-If published on crates.io:
+Its published on crates.io:
 
 ```bash
 cargo install mg24-install
