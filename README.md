@@ -7,6 +7,8 @@ It automatically copies the necessary SDK folders (`CMSIS`, `emlib`, `Device`) i
 - `~/.cmsis` – CMSIS headers and libraries  
 - `~/.emlib` – EMLIB source files  
 - `~/.mg24` – Device-specific files  
+- 'install' - probe-rs
+- 'target add' - thumbv8m.main-none-eabihf 
 
 This allows you to quickly set up your development environment without manually moving SDK files.
 
