@@ -1,6 +1,6 @@
 [package]
 name = "mg24-install"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 authors = ["Fahad Hiayri <fahadhiyari0@gamil.com>"]
 description = "Install and setup MG24 SDK folders automatically for mg24-hal"

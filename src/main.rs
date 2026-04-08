@@ -1,4 +1,4 @@
-use fs_extra::dir::{copy as copy_dir, CopyOptions};
+use fs_extra::dir::{CopyOptions, copy as copy_dir};
 use std::fs;
 use std::path::{Path, PathBuf};
 use std::process::Command;
@@ -41,7 +41,7 @@ fn main() {
     copy_subfolders(&cmsis_folder, &cmsis).expect("Failed Copying CMSIS Files");
     println!("CMSIS copied to {}", cmsis.display());
 
-    let common_folder = gecko_sdk.join("paltform").join("common");
+    let common_folder = gecko_sdk.join("platform").join("common");
     let mut options = CopyOptions::new();
     options.overwrite = true;
     options.copy_inside = false;
